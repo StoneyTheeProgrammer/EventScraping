@@ -17,7 +17,6 @@ import datetime
 
 def heading(soup):
 	heading = soup.find(class_="_5gmx")
-	print(("\nEvent data fectched: " + heading.string))
 	head1 = str(heading.string)
 	return str(head1)
 
